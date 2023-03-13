@@ -109,6 +109,7 @@ const firstAndLastName = computed(() => props.data.full_name.split(" "));
 	&__rating {
 		view-transition-name: player-rating;
 		contain: layout;
+		width: fit-content;
 	}
 }
 </style>
