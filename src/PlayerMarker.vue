@@ -2,9 +2,9 @@
 	<div class="player-marker__wrapper">
 		<div class="player-marker__image-and-rating">
 			<img :src="getImgUrl()" />
-			<span class="player-marker__rating">
+			<div class="player-marker__rating">
 				{{ data.rating }}
-			</span>
+			</div>
 		</div>
 		<span class="player-marker__name">
 			{{ data.name }}

@@ -25,9 +25,9 @@ const firstAndLastName = computed(() => props.data.full_name.split(" "));
 				<h2>
 					{{ data.name }}
 				</h2>
-				<span class="player-info__rating">
+				<div class="player-info__rating">
 					{{ data.rating }}
-				</span>
+				</div>
 			</div>
 			<img :src="getImgUrl()" />
 		</div>
